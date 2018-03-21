@@ -4,25 +4,33 @@ using namespace std;
 class A
 {
 public:
-    A()
+    A(int i)
+    : a(i)
     {
         cout << "A()" << endl;
     }
+
+private:
+    int a;
 };
 
 class B
 {
 public:
-    B()
+    B(int i)
+    : b(i)
     {
         cout << "B()" << endl;
     }
+
+private:
+    int b;
 };
 
 class C
 {
 public:
-    C():b(),a(){}
+    C():b(1),a(2){}
 
 private:
     A a;
