@@ -18,4 +18,5 @@ int main()
     B objb;
     objb.b = 2;
     A a(objb);
+    cout << a.a << endl;
 }
