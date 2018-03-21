@@ -3,15 +3,15 @@ using namespace std;
 
 class A
 {
-    void foo(){}
+    void foo(){ static int i = 0; cout << i << endl; }
 };
 
-class B : public A
+class B : public virtual A
 {
 
 };
 
-class C : public A
+class C : public virtual A
 {
 
 }; 
