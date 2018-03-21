@@ -3,7 +3,7 @@ using namespace std;
 
 class A
 {
-
+    void foo(){}
 };
 
 class B : public A
