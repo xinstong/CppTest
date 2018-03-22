@@ -16,8 +16,8 @@ class C : public virtual A
 
 }; 
 
-class D : public B
-	, public C
+class D : public virtual B
+	, public virtual C
 {
 
 };
