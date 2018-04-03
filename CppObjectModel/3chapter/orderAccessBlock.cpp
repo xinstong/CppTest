@@ -28,7 +28,6 @@ public:
 template <class class_type,
           class data_type1,
           class data_type2>
-
 char*
 access_order(data_type1 class_type::*m1,
              data_type2 class_type::*m2)
